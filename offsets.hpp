@@ -5,8 +5,8 @@
 namespace offsets
 {
 	// Cache
-	inline uintptr_t UWorld = 0x16EB5008;
-	inline uintptr_t OwningGameInstance = 0x210;
+	inline uintptr_t UWorld = 0x1782D0B8;
+	inline uintptr_t OwningGameInstance = 0x220;
 	inline uintptr_t LocalPlayers = 0x38;
 	inline uintptr_t PlayerController = 0x30;
 	inline uintptr_t AcknowledgedPawn = 0x350;
@@ -14,13 +14,13 @@ namespace offsets
 	inline uintptr_t PlayerState = 0x2c8;
 	inline uintptr_t TeamIndex = 0x1259;
 	inline uintptr_t RootComponent = 0x1B0;
-	inline uintptr_t GameState = 0x198;
+	inline uintptr_t GameState = 0x1A8;
 	inline uintptr_t PlayerArray = 0x2C0;
 	inline uintptr_t PawnPrivate = 0x320;
 	
 	// Camera
-	inline uintptr_t RelativeLocation = 0x140;
-	inline uintptr_t RelativeRotation = 0x150;
+	inline uintptr_t RelativeLocation = 0x148;
+	inline uintptr_t RelativeRotation = 0x158;
 
 	// Getbone
 	inline uintptr_t BoneArray = 0x5c8;
@@ -32,8 +32,8 @@ namespace offsets
 	inline uintptr_t fLastRenderTimeOnScreen = 0x2F0;
 
 	// Prediction
-	inline uintptr_t ProjectileSpeed = 0x1D9C;
-	inline uintptr_t ProjectileGravityScale = 0x1E0C;
+	inline uintptr_t ProjectileSpeed = 0x1af8;
+	inline uintptr_t ProjectileGravityScale = 0x2210;
 	inline uintptr_t Velocity = 0x180;
 
 	// Weapon decryption
@@ -59,5 +59,6 @@ namespace offsets
 	// Triggerbot
 	inline uintptr_t TargetedFortPawn = 0x1980;
 	
-	
+	// Visible Check
+	Seconds: 0x168
 }
