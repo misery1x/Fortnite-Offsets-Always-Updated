@@ -9,8 +9,8 @@ camera_position_s camera_class::GetCamera()
 {
 	camera_position_s camera;
 
-  uintptr_t location_pointer = memory.Read<uintptr_t>(cache.system.UWorld + 0x140);
-  uintptr_t rotation_pointer = memory.Read<uintptr_t>(cache.system.UWorld + 0x150);
+  uintptr_t location_pointer = memory.Read<uintptr_t>(cache.system.UWorld + 0x148);
+  uintptr_t rotation_pointer = memory.Read<uintptr_t>(cache.system.UWorld + 0x158);
 
   FNRot fnrot{};
   fnrot.a = memory.Read<double>(rotation_pointer);
