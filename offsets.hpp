@@ -57,8 +57,5 @@ namespace offsets
 
 
 	// Triggerbot
-	inline uintptr_t TargetedFortPawn = 0x1980;
-	
-	// Visible Check
-	Seconds: 0x168
+	inline uintptr_t TargetedFortPawn = 0x19b0;
 }
