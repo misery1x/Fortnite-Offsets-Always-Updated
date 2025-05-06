@@ -31,8 +31,6 @@ namespace offsets
 	inline uintptr_t AmmoCount = 0x1244;
 	inline uintptr_t ItemName = 0x40;
 	inline uintptr_t Tier = 0xa2;
-	inline uintptr_t WeaponAmmoClipSize = 0x148;
-	inline uintptr_t WeaponReloadSpeed = 0x120;
 
 	inline uintptr_t Platform = 0x430;
 
