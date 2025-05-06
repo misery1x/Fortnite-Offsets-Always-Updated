@@ -38,12 +38,4 @@ namespace offsets
 
 	inline uintptr_t HabaneroComponent = 0xa48;
 	inline uintptr_t RankedProgress = 0xd0;
-
-	// Aimbot
-	inline uintptr_t WeaponAimOffset = 0x2f28;
-	inline uintptr_t WeaponOffsetCorrection = 0x2f58;
-
-	// World
-	inline uintptr_t GName = 0x17114EC0;
-	inline uintptr_t TargetedFortPawn = 0x1980;
 }
