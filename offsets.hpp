@@ -4,7 +4,7 @@
 
 namespace offsets
 {
-	inline uintptr_t UWorld = 0x17A06968;
+	inline uintptr_t UWorld = 0x17AA2698;
 	inline uintptr_t OwningGameInstance = 0x238;
 	inline uintptr_t LocalPlayers = 0x38;
 	inline uintptr_t PlayerController = 0x30;
@@ -26,7 +26,7 @@ namespace offsets
 
 	inline uintptr_t Velocity = 0x180;
 
-	inline uintptr_t CurrentWeapon = 0xAA8;
+	inline uintptr_t CurrentWeapon = 0xaa8;
 	inline uintptr_t WeaponData = 0x618;
 	inline uintptr_t AmmoCount = 0x1244;
 	inline uintptr_t ItemName = 0x40;
@@ -38,4 +38,12 @@ namespace offsets
 
 	inline uintptr_t HabaneroComponent = 0xa48;
 	inline uintptr_t RankedProgress = 0xd0;
+
+	// Aimbot
+	inline uintptr_t WeaponAimOffset = 0x2f28;
+	inline uintptr_t WeaponOffsetCorrection = 0x2f58;
+
+	// World
+	inline uintptr_t GName = 0x17114EC0;
+	inline uintptr_t TargetedFortPawn = 0x1980;
 }
