@@ -41,3 +41,4 @@ namespace offsets
 	inline uintptr_t ProjectileGravityScale = 0x1fbc;
 }
 
+
