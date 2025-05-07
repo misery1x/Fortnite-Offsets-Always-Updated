@@ -40,3 +40,4 @@ namespace offsets
 	inline unitptr_t ProjectileSpeed = 0x1d30;
 	inline uintptr_t ProjectileGravityScale = 0x1fbc;
 }
+
