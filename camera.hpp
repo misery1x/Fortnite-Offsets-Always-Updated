@@ -6,8 +6,8 @@ camera_position_s camera_class::GetCamera()
 {
 	camera_position_s camera;
 
-	auto location_pointer = memory.read<uintptr_t>(cache.system.UWorld + 0x168); // Rotation is always location + 0x10
-	auto rotation_pointer = memory.read<uintptr_t>(cache.system.UWorld + 0x178);
+	auto location_pointer = memory.read<uintptr_t>(cache.system.UWorld + 0x160); // Rotation is always location + 0x10
+	auto rotation_pointer = memory.read<uintptr_t>(cache.system.UWorld + 0x170);
 
 	struct FNRot
 	{
@@ -29,3 +29,5 @@ camera_position_s camera_class::GetCamera()
 
 	return camera;
 }
+
+
