@@ -4,7 +4,7 @@
 
 namespace offsets
 {
-	inline uintptr_t UWorld = 0x17AA2698;
+	inline uintptr_t UWorld = 0x18776E88;
 	inline uintptr_t OwningGameInstance = 0x238;
 	inline uintptr_t LocalPlayers = 0x38;
 	inline uintptr_t PlayerController = 0x30;
@@ -27,16 +27,14 @@ namespace offsets
 	inline uintptr_t Velocity = 0x180;
 
 	inline uintptr_t CurrentWeapon = 0xaa8;
-	inline uintptr_t WeaponData = 0x618;
-	inline uintptr_t AmmoCount = 0x1244;
+	inline uintptr_t WeaponData = 0x568;
+	inline uintptr_t AmmoCount = 0x107C;
 	inline uintptr_t ItemName = 0x40;
-	inline uintptr_t Tier = 0xa2;
+	inline uintptr_t Tier = 0xa2; // EFortRarity  Rarity
 
 	inline uintptr_t Platform = 0x430;
 
+	// Rank
 	inline uintptr_t HabaneroComponent = 0xa48;
 	inline uintptr_t RankedProgress = 0xd0;
-
-	inline unitptr_t ProjectileSpeed = 0x1d30;
-	inline uintptr_t ProjectileGravityScale = 0x1fbc;
 }
