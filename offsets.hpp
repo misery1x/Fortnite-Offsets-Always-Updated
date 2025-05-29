@@ -4,8 +4,8 @@
 
 namespace offsets
 {
-	inline uintptr_t UWorld = 0x18776E88;
-	inline uintptr_t OwningGameInstance = 0x238;
+	inline uintptr_t UWorld = 0x17DD5A88;
+	inline uintptr_t OwningGameInstance = 0x230;
 	inline uintptr_t LocalPlayers = 0x38;
 	inline uintptr_t PlayerController = 0x30;
 	inline uintptr_t AcknowledgedPawn = 0x350;
@@ -13,7 +13,7 @@ namespace offsets
 	inline uintptr_t PlayerState = 0x2B0;
 	inline uintptr_t TeamIndex = 0x1259;
 	inline uintptr_t RootComponent = 0x1B0;
-	inline uintptr_t GameState = 0x1C0;
+	inline uintptr_t GameState = 0x1B8;
 	inline uintptr_t PlayerArray = 0x2c0;
 	inline uintptr_t PawnPrivate = 0x320;
 
