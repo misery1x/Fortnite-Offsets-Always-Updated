@@ -6,3 +6,4 @@ bool sdk_utility_class::IsEnemyVisible(uintptr_t Mesh_MJ)
 	auto LastRenderTime = memory.read<float>(Mesh_MJ + 0x32C);
 	return Seconds - LastRenderTime <= 0.06f;
 }
+
