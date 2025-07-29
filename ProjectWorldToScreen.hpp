@@ -15,5 +15,3 @@ FVector2D w2s_class::ProjectWorldToScreen(FVector WorldLocation)
 
 	return FVector2D((RelicTM.ScreenWidth / 2.0f) + vTransformed.x * (((RelicTM.ScreenWidth / 2.0f) / tanf(camera_postion.fov * (float)M_PI / 360.f))) / vTransformed.z, (RelicTM.ScreenHeight / 2.0f) - vTransformed.y * (((RelicTM.ScreenWidth / 2.0f) / tanf(camera_postion.fov * (float)M_PI / 360.f))) / vTransformed.z);
 }
-
-
