@@ -9,3 +9,4 @@ FVector sdk_bones_class::GetBoneLocation(uintptr_t Mesh, int bone_index)
 	D3DMATRIX Matrix = matrix.MatrixMultiplication(bone.ToMatrixWithScale(), component_to_world.ToMatrixWithScale());
 	return FVector(Matrix._41, Matrix._42, Matrix._43);
 }
+
