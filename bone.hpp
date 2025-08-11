@@ -10,3 +10,4 @@ FVector sdk_bones_class::GetBoneLocation(uintptr_t Mesh, int bone_index)
 	return FVector(Matrix._41, Matrix._42, Matrix._43);
 }
 
+
