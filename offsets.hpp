@@ -4,7 +4,7 @@
 
 namespace offsets
 {
-	inline uintptr_t UWorld = 0x176774E8;
+	inline uintptr_t UWorld = 0x177255E8;
 	inline uintptr_t OwningGameInstance = 0x248;
 	inline uintptr_t LocalPlayers = 0x38;
 	inline uintptr_t PlayerController = 0x30;
@@ -35,13 +35,14 @@ namespace offsets
 	inline uintptr_t Platform = 0x430;
 
 	// Rank
-	inline uintptr_t HabaneroComponent = 0xA88;
+	inline uintptr_t HabaneroComponent = 0xA80;
 	inline uintptr_t RankedProgress = 0xB48;
 }
 	// World
 	inline uintptr_t GName = 0x17114EC0;
 	inline uintptr_t TargetedFortPawn = 0x1980;
 }
+
 
 
 
