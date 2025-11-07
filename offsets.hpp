@@ -2,8 +2,6 @@
 
 #include <windows.h>
 
-// PS CAMERA UPDATED FOV, IS NOW 0x3B4
-
 namespace offsets
 {
 	inline uintptr_t UWorld = 0x16EA99B0;
@@ -40,6 +38,7 @@ namespace offsets
 	inline uintptr_t HabaneroComponent = 0x938;
 	inline uintptr_t RankedProgress = 0xd8;
 }
+
 
 
 
