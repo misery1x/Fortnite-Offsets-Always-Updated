@@ -25,7 +25,7 @@ camera_position_s camera_class::GetCamera()
 	camera.location = memory.read<FVector>(location_pointer);
 	camera.rotation.x = asin(fnRot.c) * (180.0 / M_PI);
 	camera.rotation.y = ((atan2(fnRot.a * -1, fnRot.b) * (180.0 / M_PI)) * -1) * -1;
-	camera.fov = memory.read<float>((uintptr_t)cache.system.PlayerController + 0x3AC) * 90.f;
+	camera.fov = memory.read<float>((uintptr_t)cache.system.PlayerController + 0x3B4) * 90.f;
 
 	return camera;
 }
