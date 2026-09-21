@@ -38,10 +38,3 @@ namespace offsets
 	inline uintptr_t HabaneroComponent = 0x918;
 	inline uintptr_t RankedProgress = 0xd8;
 }
-
-
-
-
-
-
-
