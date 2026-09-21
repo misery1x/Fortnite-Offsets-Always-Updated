@@ -1,8 +1,9 @@
 #pragma once
 
-bool sdk_utility_class::IsEnemyVisible(uintptr_t Mesh_MJ)
+bool IsEnemyVisible(uintptr_t MESH)
 {
-	auto Seconds = memory.read<double>(cache.system.UWorld + 0x198);
-	auto LastRenderTime = memory.read<float>(Mesh_MJ + 0x32C);
-	return Seconds - LastRenderTime <= 0.06f;
+	float LastRenderTime = Read<float>(MESH + 0x530);
+	float DeltaTimeSeconds = Read<float>(UWorld + 0x7CC);
+	double TimeSeconds = Read<double>(UWorld + 0x7A8);
+	return std::fmax(0.06, DeltaTimeSeconds + 0.000099999997) >= TimeSeconds - static_cast<double>(LastRenderTime);
 }
